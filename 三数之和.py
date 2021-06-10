@@ -3,7 +3,6 @@ class Solution:
         lens=len(nums)
         res=list()
         nums.sort()
-
         for first in range(lens):
             if(first>0and nums[first]==nums[first-1]):continue
             third=lens-1
